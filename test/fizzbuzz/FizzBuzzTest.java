@@ -7,7 +7,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class FizzBuzzTest {
 
     @Test
-    void test() {
+    void answer1() {
         assertEquals("1", FizzBuzz.fizzbuzz(1));
+    }
+
+    @Test
+    void answer2() {
+        assertEquals("2", FizzBuzz.fizzbuzz(2));
     }
 }

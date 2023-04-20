@@ -5,10 +5,6 @@ public class FizzBuzz {
     public static final int[] cases = { 3, 5 };
     public static final String[] strings = { "Fizz", "Buzz" };
 
-    private FizzBuzz() {
-        throw new IllegalStateException("Utility class");
-    }
-
     public static String fizzbuzz(int number) {
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < cases.length; i++) {

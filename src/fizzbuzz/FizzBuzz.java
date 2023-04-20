@@ -2,8 +2,8 @@ package fizzbuzz;
 
 public class FizzBuzz {
 
-    public static final int[] cases = { 3, 5 };
-    public static final String[] strings = { "Fizz", "Buzz" };
+    private static final int[] cases = { 3, 5 };
+    private static final String[] strings = { "Fizz", "Buzz" };
 
     public static String fizzbuzz(int number) {
         StringBuilder str = new StringBuilder();
